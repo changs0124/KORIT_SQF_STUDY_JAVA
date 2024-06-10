@@ -1,0 +1,24 @@
+상속(추상화) : 자료를 묶기 위해서 -> 메소드 재활용
+
+Animal[] animals = new Animal[3];
+animals[0] = new Animal();
+animals[1] = new Tiger();
+animals[2] = new Dog();
+
+업 캐스팅(자식 클래스를 부모 클래스에 대입) -> 묵시적 형변환(앞에 (int), (double)생략 가능)
+Animal a = new Dog();
+
+다운 캐스팅
+: case1(일반 자료형 - 리터럴) -> 명시적 형변환 - 주소 바꾸기
+: case2(참조 자료형 - 클래스) -> 명시적 형변환 - 단순 대입 => 업캐스팅 해서 사용 못하는 자식 클래스의 메소드를 다시 사용하기 위해 사용(다운 캐스팅의 사용 이유)
+
+Animal a = new Animal();        // Animal 클래스 자체의 객체 생성
+Tiger t = (Tiger)a;             // 다운 캐스팅 불가(문법적 오류)
+
+Animal a = new Tiger();
+Tiger t = (Tiger)a;            // 다운 캐스팅
+
+Animal a = new Dog();           // 업 캐스팅을 해도 자식 클래스의 부분이 사라지는 것은 아니다.
+Tiger t = (Tiger)a;             // 다운 캐스팅 불가
+
+= 업 캐스팅을 한 적이 없다면 다운 캐스팅을 할 수 없다. <- 업캐스팅 해서 사용 못하는 자식 클래스의 메소드를 다시 사용하기 위해 사용(다운 캐스팅의 사용 이유)

@@ -1,0 +1,30 @@
+Git - 형사 관리 / 버전 관리
+https://www.opentutorials.org/module/3963/24425
+
+git init
+git config --gloabl(전역) user.name ---
+git config --gloabl(전역) user.email ---
+
+git add .
+git status
+git commit -m"---"
+git log
+git status
+git push
+
+Local
+working directory(= work space) -> staging area -> repository - 실제적인 저장소
+			git add .(all)	git commit -m"메세지"
+			git status
+					 <-
+					git checkout 커밋 번호(앞에서 6자리)
+Remote(git-hub)
+git fetch(파일의 최신버전 확인) -> git pull
+
+1. git fetch 로컬과 리모트와의 일치 // status는 로컬에서의 일치
+2. git pull(fast forward - 다른 브랜치가 메인 브랜치의 모든 커밋 내용을 포함하는 경우 fast forward방식으로 HEAD위치가 다른 브랜치로 이동)
+
+<extra>
+[git help -a / git -v 버전확인 / git clear / git log / git reset : stagging area에 올린 것을 내릴 때 사용 / git push -u(up stream)]
+
+untracked : 처음보는 파일 / tracked : 이전에 한 번 본 파일 / modified : 수정된 파일

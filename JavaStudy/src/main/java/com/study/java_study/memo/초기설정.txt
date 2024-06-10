@@ -1,0 +1,31 @@
+https://sites.google.com/view/kji-java/index
+
+1. 웹에 대한 이해
+2. 백 / 프론트(웹, 어플, 서버)
+3. 다양한 라이브러리(잘 쓰는 방법, 설명서 읽는 방법) - API
+
+조건 / 반복 / 함수
+
+inteilJ - ctrl alt s - new UI
+inteilJ - ctrl alt s - hints / font
+
+main method - psvm + ctrl space
+class(객체) - main
+
+컴파일 - 기계어로 번역
+패키지 - 소스 코드들의 집합
+
+IDE > JDK > jre > jvm
+환경  개발  실행
+
+주기억장치(램) - 속도 빠름, 휘발성 / 보조기억장치(ssd/hdd)
+
+Class - 대문자 + 대문자(파스칼 표기법)
+함수 / 변수 - 소문자 + 대문자(카멜 표기법)
+데이터 베이스 - _(스네이크 표기법)
+
+서버 - 클라이언트
+
+three-layer : 프레젠테이션 - 서비스 - 레파지토리(DAO)
+
+메이븐 레포지토리 : 

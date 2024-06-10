@@ -1,0 +1,14 @@
+Collection Interface
+
+List / Set  / Map
+List<?> list = new ArrayList<>();
+List<?> list1 = new LinkedList<>();
+List<?> list2 = new DoubleLinkedList<>();
+
+Set<?> set = new HashSet<>();
+
+=> 업캐스팅한 상태로 List / Set  선언 => 확장성 때문 / 만약 이 Collection Framework가 바뀌는 게 없다면 Collection 자료형 통일해서 선언
+
+Map<?> map = new HashMap<>();
+
+=> 업캐스팅한 상태로 Map 선언 => 확장성 때문
