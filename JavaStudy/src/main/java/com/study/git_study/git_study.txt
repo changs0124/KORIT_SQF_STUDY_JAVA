@@ -10,7 +10,8 @@ git status
 git commit -m"---"
 git log
 git status
-git push
+git push origin main - 초기 레포지토리에 올릴때 사용
+(git push)
 
 Local
 working directory(= work space) -> staging area -> repository - 실제적인 저장소

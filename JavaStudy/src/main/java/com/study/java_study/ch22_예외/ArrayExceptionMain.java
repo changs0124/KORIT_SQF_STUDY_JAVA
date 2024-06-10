@@ -18,7 +18,6 @@ public class ArrayExceptionMain {
 //            System.out.println(e.getMessage());     // 예외 발생시 맨 처음 확인
 //            e.printStackTrace();                    // 비동기처리
 //        }
-
     }
     public static void main(String[] args) /*throws Exception*/ {   // JVM - 메인 메소드 호출 -> 메인 메소드에 예외 처리시 메인 메소드 실행 전에 예외처리 발생
         Integer[] nums = new Integer[]{1, 2, 3, 4, 5};
